@@ -1,0 +1,47 @@
+/**
+ * For Assignment: , June 8th, 2015 
+ * test_output.txt
+ * This is the output file for TaskListTester.java test program
+ */
+
+
+Test 1 of 'isEmpty' method passed.
+
+Test 2 of 'isEmpty' method passed.
+
+Test 3 of 'getLength' method passed.
+
+Test 4 of 'removeHead' method passed.
+
+Test 5 of 'getLength' method passed.
+
+Test 6 of 'retrieve' method passed.
+
+Test 7 of 'retrieve' method passed.
+
+Test 8 of 'retrieve' method passed.
+
+Test 9 of 'remove' method passed.
+
+Test 10 of 'removeHead' method passed.
+
+For test1, I tested before insert task (1,1), whether the task list is empty or not, this test should pass if the task list is empty.
+
+For test2, I tested after insert task (6,13), whether the task list is empty or not, this test should pass if task list is not empty.
+
+For test3, I tested the task list length after insert 1 task, this test should pass if the method equals 2.
+
+For test4, I tested removeHead method, after the last 3 steps, the link list now should be (6,13) (1,1), and this test should pass if the removed head is (6,13).
+
+For test 5, I tested the current length of the link list, after the last 4 steps, the link list length now should be 1, and this test should pass if the length equal 1.
+
+For test6, I tested retrieve method, and passing parameter is 0, that is to say, this method should return the task of the first position, and this test should pass if the result is (1,1).
+
+For test7, I tested extreme position which is negative number, the test should pass if the method returns null.
+
+For test8, I tested another extreme position which is out of the length of the task list, and the test should pass if the method returns null.
+
+For test9, I tested remove method which removed the only task in the task list, and the test should pass if the removed task is (1,1)
+
+For test10, I tested removeHead method, after the last 9 steps, there is no task in the task list. So the test should pass if the method equal null.
+

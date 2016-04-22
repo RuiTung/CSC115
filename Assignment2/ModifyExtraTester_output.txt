@@ -1,0 +1,23 @@
+/**
+ * For Assignment 2 extra: , June 10th, 2015 
+ * ModifyExtraTester_output.txt
+ * This is the output file for ModifyExtraTester.java test program
+ */
+
+
+Test 1 of 'modify' method passed.
+
+Test 2 of 'modify' method passed.
+
+Test 3 of 'modify' method passed.
+
+Test 4 of 'modify' method passed.
+
+For test 1, I tested before insert a task, whether modify method will return null. The test should passed if it returns null.
+
+For test 2, I tested the passing index value which is a negative number. The test should passed if it returns null.
+
+For test 3, I tested the the passing index value which is bigger than the length of the task list, the test should pass if it returns null.
+
+For test 4, I tested the normal case of index = 0 and task is(3,3). The test should passed if it returns(3,3).
+

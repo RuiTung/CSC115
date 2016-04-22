@@ -1,0 +1,70 @@
+/**
+ * For Assignment: , July 17th, 2015 
+ * test_output.txt
+ * This is the output file for StringStackRefBased.java and InfixCalc.java
+ */
+
+Test for StringStackRefBased.java starts.
+
+Test1 of isEmpty passed.
+
+Test2 of peek passed.
+
+Test3 of pop passed.
+
+Test4 of push passed.
+
+Test5 of push passed.
+
+Test6 of peek passed.
+
+Test7 of popAll passed.
+
+Test for StringStackRefBased.java ends.
+
+For test1, it is testing the empty status of the String stack. The method will pass if isEmpty return true.
+
+For test2, it is testing peek item before push any item into stack. The method will pass if it returns the mistake statement as the same as the one in the method.
+
+For test3, it is testing the exception situation of pop. The method will pass it if returns the mistake statement as the same as the one in the method.
+
+For test4, it is testing exception situation of push. The method will pass it if returns the mistake statement as the same as the one in the method.
+
+For test5, it is testing empty situation after push one item into stack. The method will pass if isEmpty is not empty.
+
+For test6, it is testing peek method after push one item into stack. The method will pass if the peeked one is as the same as “1st”.
+
+For test7, it is testing popAll method. The method will pass if the stack is empty.
+
+
+Test for InfixCalc.java starts.
+
+Test1 case passed.
+
+Test2 case passed.
+
+Test3 case passed.
+
+Test4 case passed.
+
+Test5 case passed.
+
+Test6 case passed.
+
+Test7 case passed.
+
+Test for InfixCalc.java ends.
+
+For test1, it is testing the divide zero situation(input). The test will pass if zero situation be caught and return the error hints. Output: ArithmeticException: Zero cannot be divided.
+
+For test2, it is testing the only brace situation(input). The test will pass if this wrong situation be caught and return the error hints. Output: <syntax error>.
+
+For test3, it is testing the only operator situation(input). The test will pass if this wrong situation be caught and return the error hints. Output: <syntax error>.
+
+For test4, it is testing the only numbers situation(input). The test will pass if the code only return the numbers input. Output: 121212.
+
+For test5, it is testing unbalanced numbers with operators(input). The test will pass if this wrong situation be caught and return the error hints. Output: <syntax error>.
+
+For test6, it is testing unbalanced brace situation. Output: <unbalanced ()>.
+
+For test7, it is testing one number with another two operators. The test will pass if this wrong situation be caught and return the error hints. Output: <syntax error>.

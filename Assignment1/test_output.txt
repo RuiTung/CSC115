@@ -1,0 +1,30 @@
+/**
+ * For Assignment: , May 28th, 2015 
+ * test_output.txt
+ * This is the output file from TestBasicAligner.java test program
+ */
+
+Test1 (getOffset): Passed
+Test1 (getNumErrors): Passed
+
+Test2 (getOffset): Passed
+Test2 (getNumErrors): Passed
+
+Test3 (getOffset): Passed
+Test3 (getNumErrors): Passed
+
+Test4 (getOffset): Passed
+Test4 (getNumErrors): Passed
+
+Test5 (getOffset): Passed
+Test5 (getNumErrors): Passed
+
+For case of Test1, I edit two string arrays which have no same elements in them. The input String is: String[] s1 = {"ABCD", "EF"}, and the output is passed based on the running result of getOffset() and getNumErrors().
+
+For case of Test2, I edit two string arrays which have the same elements and same length. The input String is: String[] s2 = {"ABCD", "ABCD"}, and the out put is passed based on the running result of getOffset() and getNumErrors().
+
+For case of Test3, I edit two string arrays, and the second string have two same elements of the first string array. The input String is: String[] s3 = {"ABCD", "CD"}, and the output is passed based on the running result of getOffset() and getNumErrors().
+
+For case of Test4, I edit two string arrays which have the same length, but they have no same elements. The input String is: String[] s4 = {"AB", "CD"}, and the out put is passed based on the running result of getOffset() and getNumErrors().
+
+For case of Test5, I edit two string arrays which the first length is less than the second length, and the elements are different within them. The input String is: String[] s5 = {"D", "AB"}, and the out put is passed based on the running result of getOffset() and getNumErrors().

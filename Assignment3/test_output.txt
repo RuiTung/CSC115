@@ -1,0 +1,39 @@
+/**
+ * For Assignment: , June 30th, 2015 
+ * test_output.txt
+ * This is the output file for WordList.java
+ */
+
+
+Test1 of 'isEmpty' method passed.
+
+Test2 of 'insertHead' method passed.
+
+Test3 of 'isEmpty' method passed.
+
+Test4 of 'getLength' method passed.
+
+Test5 of 'contains' method passed.
+
+Test6 of 'retrieve' method passed.
+
+Test7 of 'removeHead' method passed.
+
+Test8 of 'getLength' method passed.
+
+
+Test1 is mainly about the empty list. The method should passed if the list is empty before insert any task.
+
+Task2 is testing the insertHead method. The method should passed if the list head is the one that inserted.
+
+Task3 is testing the isEmpty method. The method should passed if the list is not empty after insert a task.
+
+Task4 is testing the getLength method. The method should passed if the list length is 1 after insert one task.
+
+Task5 is testing contain method. The method should pass if the list contains the string after insert the same string.
+
+Task6 is testing retrieve method. The method should pass if the first position of the list is the string of ¡°hello¡±after insert it.
+
+Task7 is testing the removeHead method. The method should passed if the current length of the list is 0.
+
+Task8 is testing the getLength method. The method should passed if the current length equal 0.

@@ -1,0 +1,25 @@
+Test 1: inserting 'humpty' -- passed
+
+Test 2: inserting 'humpty', 'dumpty', 'sat' -- passed
+
+Test 3 of 'isEmpty' passed.
+
+Test 4 of 'retrieveItem' passed.
+
+Test 5 of 'delete' passed.
+
+Test 6 of 'findLeftMost' passed.
+
+
+
+The input of Test 1 is only one word. The main purpose is to test insert method. The test will pass if this test return true.
+
+The input of Test 2 is inserting three words. The main purpose is to test insert and detach method. The test will pass if this test return true.
+
+The input of Test 3 is nothing. The main purpose is to test isEmpty method. The test will pass if this test return true.
+
+The input of Test 4 is four words. The main purpose is to test retrieve method. The test will pass if this test return true.
+
+The input of Test 5 is four words. The main purpose is to test delete method. The test will pass if this test return true.
+
+The input of Test 6 is five words. The main purpose is to test findLeftMost method. The test will pass if this test return true.
